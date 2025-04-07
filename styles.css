@@ -110,17 +110,17 @@ body {
 
   .crown {
     position: fixed;
-    bottom: 0; /* Fixes the crown at the bottom of the page */
-    left: 50%; /* Centers it horizontally */
-    transform: translateX(-50%); /* Ensures it is perfectly centered */
-    font-size: 2em; /* Adjusts the size of the crown */
-    color: gold; /* Sets the color of the text */
-    text-align: center; /* Centers the text */
-    padding: 10px 0; /* Adds some spacing */
-    text-shadow: 2px 2px 5px #000; /* Adds shadow to make it pop */
-    background-color: rgba(0, 0, 0, 0.5); /* Optional: Adds a transparent dark background for better contrast */
-    width: 100%; /* Makes sure the crown spans the entire width of the page */
-    box-sizing: border-box; /* Ensures padding is included in the width */
+    bottom: 0; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    font-size: 2em; 
+    color: gold; 
+    text-align: center; 
+    padding: 10px 0; 
+    text-shadow: 2px 2px 5px #000; 
+    background-color: rgba(0, 0, 0, 0.5); 
+    width: 100%; 
+    box-sizing: border-box; 
   }
   
   @keyframes crownGlow {
